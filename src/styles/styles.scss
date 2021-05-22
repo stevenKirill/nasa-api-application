@@ -1,0 +1,33 @@
+@import 'config';
+@import 'inheritence';
+@import 'asteroids-page';
+@import 'table-header';
+@import 'rows';
+@import 'mars-page';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+}
+.menu {
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    
+    a {
+        margin-left: 10px;
+        text-decoration: none;
+        padding-right: 3px;
+        color: $text-color;
+        background-color: $base-color;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

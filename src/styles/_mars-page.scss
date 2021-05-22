@@ -1,0 +1,31 @@
+.mars_page {
+    .mars_pictures_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .mars_picture_each {
+            margin: 5px;
+            border: 1px solid $base-color;
+        }
+    }
+}
+.mars_select_wrapper {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    .mars_select_item {
+        padding: 10px;
+        border: 1px solid $text-color;
+        .mars_select_label {
+            display: block;
+            font-size: 17px;
+            color: $base-color;
+            margin-bottom: 10px;
+        }
+        .select_common {
+            font-size: 15px;
+            padding: 5px;
+        }
+    }
+}

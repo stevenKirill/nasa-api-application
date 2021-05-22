@@ -1,0 +1,16 @@
+.table_header_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 40% 10% 20% 10%;
+    .table_header {
+        @extend %cell;
+        color: $text-color2;
+        .table_header_sub_wrapper {
+            .table_header_sub {
+                border: 1px solid blue;
+                text-align: center;
+                padding: 3px;
+            }
+        }
+    }
+}

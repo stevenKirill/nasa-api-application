@@ -1,0 +1,35 @@
+.asteroids_page_wrapper {
+    padding: 10px;
+    margin-top: 10px;
+    .asteroids_page_header {
+        text-align: center;
+    }
+    .inputs_wrapper {
+        width: 600px;
+        margin: 10px auto;
+        .inputs_wrapper_inner {
+            display: flex;
+            justify-content: center;
+            input {
+                margin-right: 10px;
+            }
+            label {
+                font-size: 20px;
+                margin-right: 10px;
+                color: #123d;
+                font-weight: bold;
+            }
+        }
+        button {
+            display: block;
+            padding: 10px;
+            background-color: $buttons-color;
+            color: $base-color;
+            outline: none;
+            border: none;
+            margin: 10px auto;
+            border: 1px solid $base-color;
+            cursor: pointer;
+        }
+    }
+}
