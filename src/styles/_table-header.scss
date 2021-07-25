@@ -4,10 +4,11 @@
     grid-template-columns: 10% 10% 40% 10% 20% 10%;
     .table_header {
         @extend %cell;
-        color: $text-color2;
+        color: $main-blue;
+        font-weight: bold;
         .table_header_sub_wrapper {
             .table_header_sub {
-                border: 1px solid blue;
+                border: 1px solid $main-blue;
                 text-align: center;
                 padding: 3px;
             }

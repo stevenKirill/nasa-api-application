@@ -5,7 +5,15 @@
         justify-content: center;
         .mars_picture_each {
             margin: 5px;
-            border: 1px solid $base-color;
+            border: 3px solid $main-blue;
+            label, span {
+                text-align: center;
+                font-size: 17px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 }
@@ -16,11 +24,10 @@
     justify-content: center;
     .mars_select_item {
         padding: 10px;
-        border: 1px solid $text-color;
         .mars_select_label {
             display: block;
-            font-size: 17px;
-            color: $base-color;
+            font-size: 20px;
+            color: $main-blue;
             margin-bottom: 10px;
         }
         .select_common {

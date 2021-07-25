@@ -21,14 +21,11 @@
             }
         }
         button {
-            display: block;
-            padding: 10px;
-            background-color: $buttons-color;
-            color: $base-color;
+            @include blue-button;
             outline: none;
             border: none;
-            margin: 10px auto;
-            border: 1px solid $base-color;
+            display: block;
+            margin: 20px auto;
             cursor: pointer;
         }
     }

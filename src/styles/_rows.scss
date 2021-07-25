@@ -4,8 +4,8 @@
     .row_item {
         @extend %cell;
         .diameter_inner {
-            font-size: 17px;
-            border: 1px solid $base-color;
+            font-size: 20px;
+            border: 1px solid $main-blue;
         }
     }
 }
@@ -19,5 +19,5 @@
     grid-template-columns: 25% 25% 25% 25%;
 }
 .velocity_inner {
-    border: 1px solid $base-color;
+    border: 1px solid $main-blue;
 } 
